@@ -1,0 +1,28 @@
+# Clawpx4 dependencies
+# Install with: pip install -r requirements.txt
+
+# Telegram bot
+python-telegram-bot==20.0
+
+# Local LLM — llama.cpp Python bindings
+# On Termux / low-RAM devices you can use the llama-cli binary instead;
+# uncomment the line below only if you have a full build environment.
+# llama-cpp-python
+
+# Vector memory
+chromadb
+
+# Sentence embeddings for ChromaDB
+sentence-transformers
+
+# Scheduler
+apscheduler
+
+# Environment / config
+python-dotenv==1.0.0
+
+# Web search
+duckduckgo-search==4.1.1
+
+# Utilities
+httpx==0.26.0
