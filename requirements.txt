@@ -1,0 +1,24 @@
+# Clawpx4 dependencies
+# Install with: pip install -r requirements.txt
+
+# Telegram bot
+python-telegram-bot==20.7
+
+# LLM / llama.cpp Python bindings (optional, falls back to subprocess)
+# llama-cpp-python==0.2.56  # uncomment if you have a build environment
+
+# Memory
+chromadb==0.4.22
+# chromadb uses sqlite3 from stdlib; no extra dep needed for SQLite
+
+# Scheduler
+APScheduler==3.10.4
+
+# Environment / config
+python-dotenv==1.0.0
+
+# Web search
+duckduckgo-search==4.1.1
+
+# Utilities
+httpx==0.26.0
